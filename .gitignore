@@ -1,0 +1,27 @@
+# Data & Models
+"archive (1)/"
+vinbigdata-cxr-ad-coco/
+checkpoints/
+runs/
+predictions/
+*.pth
+*.pt
+gt_check_results.txt
+final_comparison_utf8.txt
+final_comparison.txt
+
+# Environment
+.venv/
+env/
+venv/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
