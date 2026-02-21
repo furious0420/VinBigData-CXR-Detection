@@ -7,12 +7,20 @@ This repository contains a full object detection pipeline for detecting thoracic
 ## 🚀 Overview
 
 The model is built using **PyTorch** and **Faster R-CNN (ResNet-50-FPN)**. It is trained to identify and localize 14 different types of abnormalities, including:
-- Aortic enlargement
-- Pleural thickening
-- Lung Opacity
-- Infiltration
-- Cardiomegaly
-- ... and more.
+-Aortic enlargement: Dilation of the aorta, often seen at the top of the heart.
+-Pleural thickening: Scarring or thickening of the lining around the lungs.
+-Pleural effusion: Buildup of excess fluid between the layers of the pleura outside the lungs.
+-Cardiomegaly: An enlarged heart, often indicating heart failure or disease.
+-Lung Opacity: Areas that appear white or "cloudy" where they should be dark (air-filled).
+-Nodule/Mass: Small, round abnormalities that could be benign or malignant.
+-Consolidation: When air in the lungs is replaced by fluid, pus, or blood.
+-Pulmonary fibrosis: Scarring and damaged lung tissue.
+-Infiltration: Collection of substances (like fluid or cells) within the lung tissue.
+-Atelectasis: Partial or complete collapse of a lung.
+-Other lesion: Miscellaneous abnormalities not covered by specific classes.
+-ILD (Interstitial Lung Disease): Disorders that cause progressive scarring of lung tissue.
+-Pneumothorax: A collapsed lung caused by air leaking into the space between your lung and chest wall.
+-Calcification: Hardened deposits of calcium, often following an old infection.
 
 ## 📊 Results
 
